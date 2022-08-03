@@ -1,0 +1,699 @@
+/* Extra small device (portrait phones, less than 576) */
+@media (max-width: 575.98px) {
+    .navbar-toggler-icon {
+        background-image: url(../../images/logo/toggler.png);
+    }
+    .navbar-toggler {
+        background: #434343;
+    }
+    .navbar-toggler:focus {
+        outline: 0;
+        box-shadow: 2px 4px 9px #76c027;
+    }
+    .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link::after {
+        width: 13%;
+    }
+
+    .navbar-nav {
+        background: #434343;
+    }
+    #banner-section {
+        height: 100vH;
+    }
+    .banner-text {
+        padding-top: 8rem;
+        padding-bottom: 6rem;
+    }
+    .banner-text h2 {
+        font-size: 1.2rem;
+    }
+    .banner-text p {
+        padding: 0rem 0.2rem;
+        margin: 2rem 0rem;
+        text-align: justify;
+        font-size: 14px;
+    }
+    #banner-section
+    .banner-arrow-left {
+        visibility: hidden;
+    }
+    #banner-section
+    .banner-arrow-right {
+        visibility: hidden;
+    }
+    .banner-text h2::after {
+        top: 3rem;
+    }
+    .about-left {
+        margin-bottom: 4rem;
+    }
+    .about-right h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .about-right p {
+        text-align: justify;
+        font-size: 14px;
+    }
+    .about-right
+    .common-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .service-top h2 {
+        font-size: 1.2rem;
+    }
+    .service-arrow-left {
+        visibility: hidden;
+    }
+    .service-arrow-right {
+      visibility: hidden;
+    }
+    .service-2-top h2 {
+        font-size: 1.2rem;
+    }
+    .service-top h4 {
+        font-size: 14px;
+    }
+    .service-2-top p {
+        font-size: 14px;
+    }
+    .service-2-content h4 {
+        font-size: 1.2rem;
+    }
+    .service-2-content p {
+        font-size: 14px;
+    }
+    .expertise-top h2 {
+        font-size: 1.2rem;
+    }
+    .expertise-top p {
+        font-size: 14px;
+    }
+    .team-top h2 {
+        font-size: 1.2rem;
+    }
+    .team-top p {
+        font-size: 14px;
+    }
+    .team-bottom h6 {
+        font-size: 1rem;
+    }
+    .team-bottom
+    .common-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .creative-title h3 {
+        font-size: 1.2rem;
+    }
+    .creative-title p {
+        font-size: 14px;
+    }
+    .team-wrap
+    .img-fluid {
+        width: 100%;
+    }
+    .team-content {
+        text-align: center;
+    }
+    .works-left h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .works-right h6 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .works-right i {
+        font-size: 1rem;
+    }
+    .works-middle
+    .img-fluid {
+        width: 100%;
+    }
+    .works-bottom
+    .common-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .employee_info_part_top p {
+        font-size: 14px;
+        padding: 0px 0px;
+        text-align: justify;
+    }
+    .employee_info_slider_images {
+        width: 108px;
+    }
+    .employee_info_arrow_left {
+        visibility: hidden;
+    }
+    .employee_info_arrow_right {
+        visibility: hidden;
+    }
+    .contact-left h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .contact-left
+    .common-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .contact-right h3 {
+        font-size: 1.2rem;
+        margin-top: 3rem;
+    }
+    .contact-right {
+        text-align: center;
+    }
+    .about-us-title h3 {
+        font-size: 1.2rem;
+    }
+    .about-us-title p {
+        font-size: 14px;
+    }
+    .about-us-right {
+        margin-top: 17px;
+        padding: 6px 15px;
+    }
+    .about-us-right h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    .about-us-right h6 {
+        margin: 0;
+    }
+    .about-us-right p {
+        font-size: 14px;
+        line-height: normal;
+    }
+    #about-us-section
+    .about-us-arrow-left {
+        visibility: hidden;
+    }
+    #about-us-section
+    .about-us-arrow-right {
+        visibility: hidden;
+    }
+    .about-us-left
+    .img-fluid {
+        width: 100%;
+    }
+    .clients-title h3 {
+        font-size: 1.2rem;
+    }
+    .clients-title h6 {
+        font-size: 14px;
+    }
+    .clients-info img:hover {
+        transform: scale(1.2);
+    }
+    .footer_part_left img {
+        padding-bottom: 0rem;
+    }
+    .footer_part_left {
+        text-align: center;
+    }
+    .footer_part_left li {
+        font-size: 1rem;
+    }
+    .footer_part_middle {
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .footer_part_middle h4 {
+        font-size: 1.2rem;
+        padding-bottom: 0px;
+    }
+    .map_dgn {
+        top: 16%;
+        left: 23px;
+    }
+    .phone_dgn {
+        left: 21px;
+    }
+    .input_dgn {
+        max-width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .footer_part_right h4 {
+        padding-bottom: 15px;
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .social_dgn {
+        text-align: center;
+    }
+    .footer_bottom_left {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .footer_bottom_right p {
+        text-align: center;
+    }
+    .send-btn {
+        display: flex;
+        padding: 6px 30px;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width:576px) and (max-width: 767.98px) {
+    .navbar-toggler-icon {
+        background-image: url(../../images/logo/toggler.png);
+    }
+    .navbar-toggler {
+        background: #434343;
+    }
+    .navbar-toggler:focus {
+        outline: 0;
+        box-shadow: 2px 4px 9px #76c027;
+    }
+    .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link::after {
+        width: 13%;
+    }
+
+    .navbar-nav {
+        background: #434343;
+    }
+    .banner-text {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    /* #banner-section {
+        height: 80vH;
+    } */
+    .banner-text h2 {
+        font-size: 1.7rem;
+    }
+    .banner-text p {
+       
+        padding: 0rem 0.2rem;
+        margin: 3rem 0rem;
+    }
+    .about-left {
+        margin-bottom: 4rem;
+    }
+    .about-right h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .about-right p {
+        text-align: justify;
+    }
+    .about-right
+    .common-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .service-top h2 {
+        font-size: 1.7rem;
+    }
+    .service-arrow-left {
+        visibility: hidden;
+    }
+    .service-arrow-right {
+      visibility: hidden;
+    }
+    .service-2-top h2 {
+        font-size: 1.7rem;
+    }
+    .service-2-top p {
+        font-size: 1rem;
+    }
+    .expertise-top h2 {
+        font-size: 1.7rem;
+    }
+    .expertise-top p {
+        font-size: 1rem;
+    }
+    .team-top h2 {
+        font-size: 1.7rem;
+    }
+    .team-top p {
+        font-size: 1rem;
+    }
+    .team-bottom
+    .common-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .creative-title h3 {
+        font-size: 1.7rem;
+    }
+    .creative-title p {
+        font-size: 1rem;
+    }
+    .works-left h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .works-right h6 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .works-right i {
+        font-size: 1.2rem;
+    }
+    .works-bottom
+    .common-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .employee_info_part_top p {
+        padding: 0px 0px;
+        text-align: justify;
+    }
+    .employee_info_part_top h4 {
+        margin-top: 2rem;
+    }
+    .employee_info_slider_images {
+        width: 365px;
+    }
+    .employee_info_arrow_left {
+        visibility: hidden;
+    }
+    .employee_info_arrow_right {
+        visibility: hidden;
+    }
+    .contact-left h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .contact-left
+    .common-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .contact-right h3 {
+        font-size: 1.7rem;
+        margin-top: 3rem;
+    }
+    .contact-right {
+        text-align: center;
+    }
+    .about-us-title h3 {
+        font-size: 1.7rem;
+    }
+    .about-us-title p {
+        font-size: 1rem;
+    }
+    .about-us-right {
+        margin-top: 17px;
+        padding: 6px 15px;
+    }
+    .about-us-right h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    .about-us-right h6 {
+        margin: 0;
+    }
+    .about-us-right p {
+        font-size: 14px;
+        line-height: normal;
+    }
+    #about-us-section
+    .about-us-arrow-left {
+        visibility: hidden;
+    }
+    #about-us-section
+    .about-us-arrow-right {
+        visibility: hidden;
+    }
+    .clients-title h3 {
+        font-size: 1.7rem;
+    }
+    .clients-title h6 {
+        font-size: 1rem;
+    }
+    .footer_part_left img {
+        padding-bottom: 0rem;
+    }
+    .footer_part_left {
+        text-align: center;
+    }
+    .footer_part_middle {
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .footer_part_middle h4 {
+        padding-bottom: 0px;
+    }
+    .map_dgn {
+        top: 25%;
+        left: 95px;
+    }
+    .phone_dgn {
+        left: 95px;
+    }
+    .footer_part_right h4 {
+        padding-bottom: 15px;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .input_dgn {
+        margin-left: 10%;
+    }
+    .social_dgn {
+        text-align: center;
+    }
+    .footer_bottom_left {
+        text-align: center;
+        margin-left: 4%;
+    }
+    .footer_bottom_right p {
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablests, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-toggler-icon {
+        background-image: url(../../images/logo/toggler.png);
+    }
+    .navbar-toggler {
+        background: #434343;
+    }
+    .navbar-toggler:focus {
+        outline: 0;
+        box-shadow: 2px 4px 9px #76c027;
+    }
+    .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link::after {
+        width: 13%;
+    }
+
+    .navbar-nav {
+        background: #434343;
+    }
+
+    .banner-text {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    /* #banner-section {
+        height: 80vH;
+    } */
+
+    .banner-text p {
+        margin: 4rem 1rem;
+    }
+
+    .about-left img {
+        margin-top: 5rem;
+    }
+
+    .about-right h3 {
+        font-size: 1.6rem;
+    }
+
+    .service-arrow-left {
+        top: 31%;
+        right: 15rem;
+    }
+
+    .service-arrow-right {
+        top: 31%;
+        right: 11.25rem;
+    }
+
+    .creative-title p {
+        font-size: 1.1rem;
+    }
+
+    .employee_info_part_top p {
+
+        padding: 0px 23px;
+        text-align: justify;
+        margin-bottom: 2rem;
+    }
+    .employee_info_slider_images {
+        width: 380px;
+        margin: 0 auto;
+    }
+    .employee_info_arrow_right {
+        left: 41.625rem;
+    }
+    .employee_info_arrow_left {
+        right: 42.5rem;
+    }
+    .contact-left h3 {
+        font-size: 1.6rem;
+        margin-bottom: 2.25rem;
+    }
+    .contact-right h3 {
+        font-size: 1.6rem;
+        margin-bottom: 2.25rem;
+    }
+    .about-us-title h3 {
+        font-size: 1.6rem;
+    }
+    .about-us-right h3 {
+        font-size: 22px;
+    }
+    .about-us-right p {
+        font-size: 1rem;
+        line-height: normal;
+    }
+    .about-us-right {
+        margin-top: 40px;
+    }
+    .about-us-arrow-left {
+        top: 40%;
+        right: 14rem;
+    }
+    .about-us-arrow-right {
+        top: 40%;
+        right: 10rem;
+    }
+    .clients-title h3 {
+        font-size: 1.6rem;
+    }
+    .footer_part_right {
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .input_dgn {
+        width: 440px;
+    }
+    .footer_bottom_left {
+        text-align: center;
+        margin-left: 25%;
+    }
+    .footer_bottom_right p {
+        text-align: center;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width:992px) and (max-width: 1199.98px) {
+    /* #banner-section {
+        height: 80vH;
+    } */
+
+    .banner-text {
+        padding-top: 10rem;
+    }
+
+    .banner-text p {
+        padding: 0rem 0rem;
+    }
+
+    .service-arrow-left {
+        right: 12rem;
+    }
+
+    .service-arrow-right {
+        right: 8.25rem;
+    }
+
+    .service-2-content h4 {
+        font-size: 1.6rem;
+    }
+
+    .creative-title p {
+        font-size: 1.2rem;
+    }
+
+    .employee_info_arrow_left {
+        top: 78%;
+        right: 53rem;
+    }
+
+    .employee_info_arrow_right {
+        top: 78%;
+        left: 53.625rem;
+    }
+
+    .about-us-right {
+        margin-top: 32px;
+    }
+
+    .about-us-arrow-left {
+        top: 34%;
+        right: 18rem;
+    }
+
+    .about-us-arrow-right {
+        top: 34%;
+        right: 15rem;
+    }
+
+    .input_dgn {
+        width: 211px;
+    }
+
+    .map_dgn {
+        top: 30%;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .service-arrow-left {
+        top: 31%;
+        right: 26rem;
+    }
+
+    .service-arrow-right {
+        top: 31%;
+        right: 22.25rem;
+    }
+
+    /* .about-us-arrow-left {
+        top: 40%;
+        right: 23rem;
+    }
+
+    .about-us-arrow-right {
+        top: 40%;
+        right: 20rem;
+    } */
+}
